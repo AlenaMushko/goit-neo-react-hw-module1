@@ -7,7 +7,7 @@ import transactionsData from "./transactionsData.json";
 
 function App() {
   return (
-    <dic className="app">
+    <div className="app">
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -18,7 +18,7 @@ function App() {
 
       <FriendList friends={friendsData} />
       <TransactionHistory items={transactionsData} />
-    </dic>
+    </div>
   );
 }
 
